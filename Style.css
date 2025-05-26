@@ -1,0 +1,66 @@
+body {
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    tab-size: 4;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; /* aggiunto per IE Mobile */
+    font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+    scrollbar-color: rgba(35, 105, 47, 0.8) rgba(31, 31, 31, 0.65);
+    cursor: url("../images/cursors/normal.cur"), auto;
+    background: linear-gradient(
+        180deg,
+        rgba(148, 148, 148, 0.9) 0%,
+        rgba(71, 71, 71, 0.9) 20%,
+        rgba(19, 19, 19, 0.9) 40%,
+        rgba(7, 7, 7, 0.93) 100%
+    );
+    margin: 0;
+    padding: 0;
+}
+
+/* il resto rimane invariato */
+.container {
+    border-right: 2px solid #3d3d3d;
+    border-left: 2px solid #3d3d3d;
+    border-top: 2px solid #3d3d3d;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+                rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    z-index: 10;
+    margin: 30px auto;
+    border-radius: 70px 80px 0px 0px;
+    padding: 30px;
+    max-width: 800px;
+    color: #f0f0f0;
+    background-color: rgba(20, 20, 20, 0.7);
+}
+
+h1, h2 {
+    color: #e0e0e0;
+}
+
+a {
+    color: #9fdb6d;
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
